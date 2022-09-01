@@ -3,12 +3,12 @@
 import QuoteList from "../quotes/QuoteList";
 
 const DUMMY_QUOTES = [
-  { id: "q1", author: "Max", text: "Learning React is fun!" },
-  { id: "q2", author: "Maximilian", text: "Learning React is fun!" },
+  { id: "q1", author: "Chaltu", text: "Learning React is fun!" },
+  { id: "q2", author: "Lensa", text: "Learning React is fun!" },
 ];
 
 const AllQuotes = () => {
-  return <QuoteList quote={DUMMY_QUOTES} />;
+  return <QuoteList quotes={DUMMY_QUOTES} />;
 };
 
 export default AllQuotes;

@@ -1,9 +1,12 @@
-import { Route } from "react-router-dom";
+import QuoteForm from '../components/quotes/QuoteForm'
 
 const NewQuote = () => {
-  return(
-  <h1>New Quote Page</h1>
-  )
+  const addQuoteHandler = (quoteData) => {
+    console.log(quoteData);
+  };
+
+  return <QuoteForm onAddQuote={addQuoteHandler} />;
 };
 
 export default NewQuote;
+ß
